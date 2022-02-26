@@ -28,7 +28,6 @@ This is the where the Gradient Descent comes in
 Add noise to the learning process i.e. the variance becomes large since we only use 1 example for each learning step.
 - Increase run time.
 - We can’t utilize vectorization over 1 example
-- change1
 
 ### Mini Batch GD 
 - Instead of going over all examples, Mini-batch Gradient Descent sums up over lower number of examples based on the batch size. Therefore, learning happens on each mini-batch of b examples:
